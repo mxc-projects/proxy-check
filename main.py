@@ -1,7 +1,7 @@
 import os, sys, time, json, random, threading, requests
 from colorama import Fore, Style, init
 from prettytable import PrettyTable
-import platform
+import platform 
 # Initialize colorama for cross-platform compatibility
 
 init(autoreset=True)
@@ -71,7 +71,7 @@ account = f"""{k}
 
 if 'Windows' in platform.system():
     try:
-        from colorama import init
+        from colorama import init 
     except ImportError:
         os.system("pip install colorama")
         
